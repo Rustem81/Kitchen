@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Form519OverviewController">
+   <children>
+      <GridPane layoutX="10.0" layoutY="24.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <Label text="Дата:" />
+            <Label text="Кассир:" GridPane.rowIndex="1" />
+            <Label text="Экономист:" GridPane.rowIndex="2" />
+            <Label text="Сумма RUR:" GridPane.rowIndex="3" />
+            <Label text="Сумма USD:" GridPane.rowIndex="4" />
+            <Label text="Сумма EUR:" GridPane.rowIndex="5" />
+            <Label text="Ден.Чек. Книжки (заполнен.) 50л.:" GridPane.rowIndex="6" />
+            <Label text="Ден. Чек. Книжки (бланки) 50л.:" GridPane.rowIndex="7" />
+            <Label text="Сумки с дубл.кл., прин.хран.др. подр:" GridPane.rowIndex="8" />
+            <Label text="Сумка с дубликатами ключей от ТУ:" GridPane.rowIndex="9" />
+            <Label text="Сумки с ценностями изъятыми из ИБС:" GridPane.rowIndex="10" />
+            <Label text="Служебные карты оператора банкомата:" GridPane.rowIndex="11" />
+            <Label text="Персонализир. банк.карты (именные):" GridPane.rowIndex="12" />
+            <Label GridPane.rowIndex="13" />
+            <Label text="Банковские карты, изъятые из ТУ:" GridPane.rowIndex="13" />
+            <Label text="Бланки векселей (незаполн.) ПВ -07:" GridPane.rowIndex="14" />
+            <Label text="Бланки векселей (част.запол.) ПВ -07:" GridPane.rowIndex="15" />
+            <TextField GridPane.columnIndex="1" />
+            <TextField fx:id="PeopelKassa" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="13" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="14" />
+            <TextField GridPane.columnIndex="1" GridPane.rowIndex="15" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="372.0" minWidth="10.0" prefWidth="357.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="290.0" minWidth="10.0" prefWidth="233.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <HBox layoutX="309.0" layoutY="560.0" spacing="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <children>
+            <Button layoutX="309.0" layoutY="560.0" mnemonicParsing="false" onAction="#handleOk" text="Записать" />
+            <Button layoutX="399.0" layoutY="560.0" mnemonicParsing="false" onAction="#handleCancel" text="Удалить" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
